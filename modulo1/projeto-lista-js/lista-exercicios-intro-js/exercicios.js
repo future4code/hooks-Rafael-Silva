@@ -1,17 +1,17 @@
 // EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
 
 // EXERCÍCIO 0A
-function soma(num1, num2) {
+function soma(num1, num2) { // Um exemplo Já foi resolvido antes
   
-  return num1 + num2
+  return num1 + num2 //  Exemplo já foi resolvido  antes
 }
 
 // EXERCÍCIO 0B
 function imprimeMensagem() {
-  // implemente sua lógica aqui
+  
   const mensagem = prompt('Digite uma mensagem!')
 
-  console.log(mensagem)
+  console.log(mensagem) //Esse exemplo não respondi porque ja tava resolvido antes
 }
 
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
@@ -30,7 +30,9 @@ function imprimeIdade() {
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
-  // implemente sua lógica aqui
+  return peso /(altura*altura)
+  // Retonar o valor altura multiplicada pela mesma altura
+
 
 }
 
