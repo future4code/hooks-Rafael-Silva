@@ -1,22 +1,22 @@
 1.//Exercicio de interpretação 
 
-//function minhaFuncao(variavel) {
+function minhaFuncao(variavel) {
 	//return variavel * 5
-//}
-// o valor que aparece é 10 e 50 execultado no console 
-//console.log(minhaFuncao(10)) // minha função não é definido
+}
+ o valor que aparece é 10 e 50 execultado no console 
+console.log(minhaFuncao(10)) // minha função não é definido
 
-//console.log(minhaFuncao(10))
+console.log(minhaFuncao(10))
 // Ao tirar o console.log aparece erro porque o console.log é essencial para mostrar no console .
 
-//let textoDoUsuario = prompt("Insira um texto");
+let textoDoUsuario = prompt("Insira um texto");
 
-//const outraFuncao = function(texto) {
+const outraFuncao = function(texto) {
 	//return texto.toLowerCase().includes("cenoura")
-//}
+}
 // Essa função esta retornando a respota do usuario e mostrando o valor da string
 
-//const resposta = outraFuncao(textoDoUsuario)
+const resposta = outraFuncao(textoDoUsuario)
 //console.log(resposta) ´
 
 
