@@ -1,0 +1,25 @@
+  1: [Primeiro passo.
+
+mantenha sempre a calma e o foco no que o projeto pede analisando e lendo tudo ]
+
+2: [Segundo passo.
+ Observe sempre os intens do que pede no projeto seja quais for, por exemplo "nomes" ou "cidades" ou quantas "pessoas" fizeram isso ou precisa fazer aquilo.]
+
+3: Terceiro passo[
+Fique atento no que o projeto fala se tem uma estrutura do que o problema pede e como pede para você fazer,lendo e voltando quantas vezes for necessario.]
+
+4: Quarto passo.[
+Percebendo os "intens" e oque o problema "pede" é importante anotar em um "caderno" o que o problema pede e anotar os "intens" dentro do texto que podem ser muito importante para fazer a base do seu código.]
+
+5: Quinto passo [
+Feito o passos anteriores comece fazendo a instrutura do seu código, colocando os "intens" importantes anotados no caderno para o seu código montando a base desse código. 
+]
+
+6: Sexto passo[
+  Feito os procedimentos descrito acima, você ja tem uma base e "intens" necessário para fazer sua lógica para resolver o texto.  
+
+]
+
+7: Setimo passo [
+Agora é só analisar o problema e lendo de novo se for  necessario, para entender o contexto e depois olhar os detalhes com mais calma, que você pode fazer sua lógica de código usando as informações coletadas durante a leitura do problema para resolver o problema.
+
