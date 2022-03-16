@@ -18,12 +18,13 @@
 function retornaArrayInvertido(array) {
     
 
-    return array.reverse()
+    //return array.reverse()
 }
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-  
+    return array.sort((a,b) => a-b)
+ 
 }
 
 // EXERCÍCIO 04
