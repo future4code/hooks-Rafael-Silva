@@ -1,0 +1,30 @@
+body 
+     { 
+        background-color:aquamarine; 
+    color:white;
+    }
+    
+    
+
+.texto-importante {
+color:black;
+
+}
+.texto-importante1{
+color:black;
+
+}
+
+.texto-nao-importante{
+    color:black;
+}
+div {
+margin: 40px;
+
+}
+.textolegal{
+    color:black
+}
+.textonice{
+    color:blue
+}
