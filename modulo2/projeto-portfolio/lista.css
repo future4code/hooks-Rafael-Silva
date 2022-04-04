@@ -1,0 +1,44 @@
+body {
+background-color:rgb(250, 220, 164);
+color:black;
+}
+    
+
+.texto,a{
+display:inline-block;
+margin-top:10px;
+padding-top: 10px;
+justify-content: space-between; 
+}
+
+  
+.body,h2,div{
+text-align: center;
+padding-top: 15px;
+}
+
+.footer{
+position:absolute;
+bottom:10px;  
+width:20; 
+}
+  
+.img_rod{
+width:20px;
+  
+}
+
+.texto1{
+text-align:inside;
+padding: 0px;
+}
+
+header,input{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+
+

@@ -1,0 +1,46 @@
+body {
+background-color: rgb(168, 217, 245);
+color:rgb(14, 12, 12);
+}
+
+
+.container{
+display: flex;
+margin-top:30;
+}
+
+.texto1,img{
+width: 380px;
+
+}
+
+footer{
+  position:absolute;
+  bottom:10px;  
+  width:100;
+  background-color:rgb(162, 207, 248);
+}
+
+ 
+.nav,a{
+display:inline-block;
+margin:10px;
+padding-top: 10px;
+justify-content: space-between;  
+}
+ 
+.img_rod{
+width:20px;
+
+}
+
+
+header,input{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+
+
