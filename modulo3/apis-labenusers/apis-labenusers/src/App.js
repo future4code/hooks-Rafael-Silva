@@ -1,25 +1,118 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import styled from 'styled-components'
+import './styles.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const TarefaList = styled.ul`
+  padding: 0;
+  width: 200px;
+`
+
+const Tarefa = styled.li`
+  text-align: left;
+  text-decoration: ${({completa}) => (completa ? 'line-through' : 'none')};
+`
+
+const InputsContainer = styled.div`
+  display: grid;
+  grid-auto-flow: column;
+  gap: 10px;
+` 
+
+class App extends React.Component {
+    state = {
+      tarefas: [{
+        id: Date.now(), 
+        texto: 'Texto da tarefa',
+        completa: false 
+      },
+      {
+        id: Date.now(), 
+        texto: 'Texto da Segunda tarefa',
+        completa: true
+      }],
+      inputChange:'',
+      inputValue: '',
+      filtro: 'pendentes',
+      salvar1:'',
+      pegar2:'',
+    }
+    
+
+
+ }
+  componentDidUpdate(event) {
+
+  };
+
+  componentDidMount() {
+    
+  }
+
+  onChangeInput = (event) => {
+    this.setState ( {inputValue: event.target.value} )
+
+  }
+
+  criaTarefa = () => {
+    
+  }
+
+  selectTarefa = (id) => {
+const NewList = this.state.listaFiltrada.map((event)=> {
+ if (id===event){
+
+ }
+})
+  }
+
+  onChangeFilter = (event) => {
+    this.setState ( {filtro: event.target.value} )
+  }
+
+  render() {
+    const listaFiltrada = this.state.tarefas.filter(tarefa => {
+      switch (this.state.filtro) {
+        case 'pendentes':
+          return !tarefa.completa
+        case 'completas':
+          return tarefa.completa
+        default:
+          return true
+      }
+    })
+
+    return (
+      <div className="App">
+        <h1>Lista de tarefas</h1>
+        <InputsContainer>
+          <input value={this.state.inputValue} onChange={this.onChangeInput}/>
+          <button onClick={this.criaTarefa}>Adicionar</button>
+        </InputsContainer>
+        <br/>
+
+        <InputsContainer>
+          <label>Filtro</label>
+          <select value={this.state.filter} onChange={this.onChangeFilter}>
+            <option value="">Nenhum</option>
+            <option value="pendentes">Pendentes</option>
+            <option value="completas">Completas</option>
+          </select>
+        </InputsContainer>
+        <TarefaList>
+          {listaFiltrada.map(tarefa => {
+            return (
+              <Tarefa
+                completa={tarefa.completa}
+                onClick={() => this.selectTarefa(tarefa.id)}
+              >
+                {tarefa.texto}
+              </Tarefa>
+            )
+          })}
+        </TarefaList>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
